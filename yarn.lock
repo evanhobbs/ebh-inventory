@@ -5006,6 +5006,18 @@ reduce-without@^1.0.1:
   dependencies:
     test-value "^2.0.0"
 
+redux-easy-async@0.0.12:
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/redux-easy-async/-/redux-easy-async-0.0.12.tgz#b6fdf7e3b3412bd9923953674df9d034120fc744"
+  dependencies:
+    chai "^3.5.0"
+    flux-standard-action "^1.2.0"
+    jsdoc-babel "^0.3.0"
+    jsdoc-to-markdown "^3.0.0"
+    lodash "^4.17.4"
+    markdown-toc "^1.1.0"
+    redux "^3.6.0"
+
 redux-logger@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/redux-logger/-/redux-logger-3.0.1.tgz#ae8ae4c3c55ed3dd7aa31509f0856c5d3751057a"

@@ -1,5 +1,5 @@
 /* globals fetch */
-import { createAsyncAction } from '@nerdwallet/redux-easy-async';
+import { createAsyncAction } from 'redux-easy-async';
 
 export const getItems = createAsyncAction(
   // the base name that will be used to construct the different types:
