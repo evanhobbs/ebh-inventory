@@ -11,7 +11,7 @@ export const getItems = createAsyncAction(
     makeRequest: () => {
       const path = window.location.hostname === 'localhost'
         ? `http://localhost:3002/items`
-        : `http://electricbikehub.co.nz:3002/items`
+        : `http://inventory.electricbikehub.co.nz:3002/items`
       //   console.log(path)
       // return fetch(`http://localhost:3002/items`)
       return fetch(path).then(response => response.json()).then(resp => resp[0])
