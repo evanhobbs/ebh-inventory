@@ -22,8 +22,8 @@ class App extends Component {
     const filteredItems = items.filter(item => {
       const { Name, Code } = item;
       if (!query) return true;
-      if (Name && Name.toLowerCase().indexOf(query) > -1) return true;
-      if (Code && Code.toLowerCase().indexOf(query) > -1) return true;
+      if (Name && Name.toLowerCase().indexOf(query.toLowerCase()) > -1) return true;
+      if (Code && Code.toLowerCase().indexOf(query.toLowerCase()) > -1) return true;
       return false;
     });
     if (!filteredItems.length) {
