@@ -40,7 +40,6 @@ class App extends Component {
           <tr>
             <th>Item code</th>
             <th>Name</th>
-            <th>Dealer price ex. GST</th>
             <th>Price ex. GST</th>
             <th>RRP</th>
             <th>Quantity</th>
@@ -56,7 +55,6 @@ class App extends Component {
             <tr key={item.ItemID}>
               <td>{item.Code}</td>
               <td>{item.Name}</td>
-              <td>${ dealerPrice.toFixed(2) }</td>
               <td>${ price.toFixed(2) }</td>
               <td>${ RRP.toFixed(2) }</td>
               <td>{ Math.floor(item.QuantityOnHand) }</td>
